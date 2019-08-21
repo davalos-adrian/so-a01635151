@@ -1,0 +1,10 @@
+#include "./libhello.h"
+
+int main(int argc, char **argv){
+    int i = 0;
+    for(i = 1; i < argc; i++){
+        //printf("Hooooooooola %s\n", argv[i]);
+        printHello(argv[i]);
+    }
+    return 255;
+}
