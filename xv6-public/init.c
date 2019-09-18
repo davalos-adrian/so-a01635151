@@ -20,10 +20,10 @@ main(void)
   dup(0);  // stderr
 
   for(;;){
-    printf(1, "init: starting sh\n");
+    printf(1, "ARRIBA EL NECATZA \ninit: starting sh\n");
     pid = fork();
     if(pid < 0){
-      printf(1, "init: fork failed\n");
+      printf(1, "QUE ROLLO CON EL POLLO NO TE CHARCHO\ninit: fork failed\n");
       exit();
     }
     if(pid == 0){
